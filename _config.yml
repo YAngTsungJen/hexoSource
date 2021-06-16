@@ -7,7 +7,7 @@ title: 洋蔥的筆記札本
 subtitle: 往前邁進
 description: 
 keywords:
-author: mike
+author: 洋蔥
 language: zh-TW
 timezone: 
 
@@ -128,3 +128,10 @@ neat_js:
     - '**/*.min.js'
     - '**/jquery.fancybox.pack.js'
     - '**/index.js'
+symbols_count_time:
+ # 文章是否顯示字數統計以及閱讀時間
+  symbols: true
+  time: true
+ # 網頁底部是否顯示字數統計以及閱讀時間
+  total_symbols: true
+  total_time: true
