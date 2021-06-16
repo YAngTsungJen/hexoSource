@@ -199,17 +199,11 @@
             </div>
           {%- endif %}
           <!--/noindex-->
-        {% else %}
-          {% if post.type === 'picture' %}
-            <a href="{{ url_for(post.path) }}">{{ post.content }}</a>
           {% else %}
             {{ post.content }}
-      {% include '../_custom/like_coin.ejs' %}
-          {%- endif %}
         {%- endif %}
       {% else %}
         {{ post.content }}
-        {% include '../_custom/like_coin.ejs' %}
       {%- endif %}
     </div>
 
