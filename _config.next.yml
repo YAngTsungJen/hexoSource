@@ -52,8 +52,8 @@ darkmode: false
 favicon:
   small: /images/favicon-16x16-next.png
   medium: /images/favicon-32x32-next.png
-  apple_touch_icon: /images/apple-touch-icon-next.png
-  safari_pinned_tab: /images/logo.svg
+  # apple_touch_icon: /images/apple-touch-icon-next.png
+  # safari_pinned_tab: /images/logo.svg
   #android_manifest: /manifest.json
 
 # Custom Logo (Warning: Do not support scheme Mist)
@@ -127,7 +127,7 @@ sidebar:
 # Sidebar Avatar
 avatar:
   # Replace the default image and set the url here.
-  url: /images/girlWakeUp.gif #/images/avatar.gif
+  url: /about/girlWakeUp.gif #/images/avatar.gif
   # If true, the avatar will be dispalyed in circle.
   rounded: false
   # If true, the avatar will be rotated with the cursor.
@@ -143,14 +143,14 @@ site_state: true
 # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
 social:
   GitHub: https://github.com/YAngTsungJen/YAngTsungJen.github.io || fab fa-github
-  #E-Mail: mailto:yourname@gmail.com || fa fa-envelope
+  E-Mail: mailto:q23362352@yahoo.com.tw || fa fa-envelope
   #Weibo: https://weibo.com/yourname || fab fa-weibo
   #Google: https://plus.google.com/yourname || fab fa-google
   #Twitter: https://twitter.com/yourname || fab fa-twitter
-  #FB Page: https://www.facebook.com/yourname || fab fa-facebook
+  FB Page: https://www.facebook.com/profile.php?id=100000289420313 || fab fa-facebook
   #StackOverflow: https://stackoverflow.com/yourname || fab fa-stack-overflow
   #YouTube: https://youtube.com/yourname || fab fa-youtube
-  #Instagram: https://instagram.com/yourname || fab fa-instagram
+  Instagram: https://instagram.com/q23362352 || fab fa-instagram
   #Skype: skype:yourname?call|chat || fab fa-skype
 
 social_icons:
@@ -953,3 +953,18 @@ vendors:
 css: css
 js: js
 images: images
+
+# Google AdSense
+google_adsense:
+  enable: true
+  google_ad_client_id: #
+  enable_page_level_ads: true
+  ## siderbar_enable
+  siderbar_enable: true
+  siderbar_data_ad_slot: #
+  ## post header
+  postheader_enable: true
+  postheader_data_ad_slot: #
+  ## post footer
+  postfooter_enable: true
+  postfooter_data_ad_slot: #
